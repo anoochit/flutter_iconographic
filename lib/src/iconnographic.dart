@@ -1,7 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_iconographic/src/iconnowidget.dart';
 
+/// A widget that displays an icon as a graph
 class Iconographic extends StatelessWidget {
+  /// Constructor for the Iconographic widget
+  ///
+  /// The following arguments are required:
+  ///  - `value`: The current value.
+  ///  - `max`: The max value.
+  ///  - `showHalf`: Show a half icon.
+  ///  - `iconoWidget`: Specify icon widget.
+  ///  - `direction`: The direction of an icon widget.
   const Iconographic({
     super.key,
     required this.value,
