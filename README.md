@@ -11,29 +11,42 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+[![pub package](https://img.shields.io/pub/v/flutter_iconographic)](https://pub.dartlang.org/packages/flutter_iconographic)
+[![likes](https://img.shields.io/pub/likes/flutter_iconographic)](https://pub.dartlang.org/packages/flutter_iconographic/score)
+[![points](https://img.shields.io/pub/points/flutter_iconographic)](https://pub.dartlang.org/packages/flutter_iconographic/score)
+[![popularity](https://img.shields.io/pub/popularity/flutter_iconographic)](https://pub.dartlang.org/packages/flutter_iconographic/score)
+[![license](https://img.shields.io/github/license/anoochit/flutter_iconographic)](https://pub.dartlang.org/packages/flutter_iconographic)
+[![stars](https://img.shields.io/github/stars/anoochit/flutter_iconographic)](https://github.com/xclud/flutter_iconographic/stargazers)
+[![forks](https://img.shields.io/github/forks/anoochit/flutter_iconographic)](https://github.com/xclud/flutter_iconographic/network/members)
+[![sdk version](https://badgen.net/pub/sdk-version/flutter_iconographic)](https://pub.dartlang.org/packages/flutter_iconographic)
+
+Flutter Iconograph is a widget to show an icon as a graph, support vertical and horizontal direction. You can specify an icon for full, half and empty icon.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+- Show a Icon as a graph.
+- Support vertical and horizontal direction.
+- Can specify an icon for full, half and empty icon.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
 ```dart
-const like = 'sample';
+Iconographic(
+    value: 7,
+    max: 10,
+    showHalf: false,
+    direction: Axis.horizontal,
+    iconoWidget: IconoWidget(
+        full: const Icon(
+        Icons.man,
+        color: Colors.blue,
+        ),
+        empty: Icon(
+        Icons.man,
+        color: Colors.grey.shade400,
+        ),
+    ),
+),
 ```
 
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+More examples at `/example` folder.
