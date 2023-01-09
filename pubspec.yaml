@@ -1,6 +1,6 @@
 name: flutter_iconographic
 description: Flutter Iconograph is a widget to show an icon as a graph, support vertical and horizontal direction. You can specify an icon for full, half and empty icon.
-version: 0.0.1
+version: 0.0.2
 homepage:
 
 environment:

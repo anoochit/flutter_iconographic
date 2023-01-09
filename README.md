@@ -38,12 +38,12 @@ Iconographic(
     direction: Axis.horizontal,
     iconoWidget: IconoWidget(
         full: const Icon(
-        Icons.man,
-        color: Colors.blue,
+            Icons.man,
+            color: Colors.blue,
         ),
         empty: Icon(
-        Icons.man,
-        color: Colors.grey.shade400,
+            Icons.man,
+            color: Colors.grey.shade400,
         ),
     ),
 ),
